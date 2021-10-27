@@ -1,0 +1,53 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-white {
+  background-color: white;
+  padding: 10px;
+}
+
+.card-white-image {
+  background-image: url("https://source.unsplash.com/random");
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.card .btn {
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.card {
+  text-align: right;
+  width: 250px;
+}
+
+.card:hover .btn{
+  opacity: 1;
+}
+.d-flex {
+  display: flex;
+  margin-left: 10px;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.card p {
+  margin: 0;
+}
+
+i {
+  margin-top: 4px;
+  margin-right: 4px;
+}
+
+.card-user {
+  padding-top: 20px;
+}
